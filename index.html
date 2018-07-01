@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Currency Converter</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+				
+	</head>
+	<body>
+		<script type="text/javascript" src="connection.js"></script>
+		<div class ="app">
+			<h1>Currency Converter</h1>
+			<form>
+				From:
+				<input type="text" name="fromCurrency" id = "fromCurrency"> 
+				<select id = "fromSelect"></select>
+				To:
+				<select id = "toSelect"></select>
+				<input type="text" name="toCurrency" id = "toCurrency"> 
+				<br>
+				<br>
+					  
+			</form>
+			<button onclick="calculate()" class="dropbtn">Convert</button>
+			<br><br>
+			<p id = "result"></p>
+			
+		</div>
+		
+	
+	</body>
+	
+</html>
